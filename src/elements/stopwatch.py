@@ -19,8 +19,8 @@ class Stopwatch:
 
     @staticmethod
     def microseconds_to_seconds(microseconds: float) -> float:
-        return microseconds / 10**6
+        return microseconds / 10**9
     
     @staticmethod
     def milliseconds_to_seconds(milliseconds: float) -> float:
-        return milliseconds / 10**4
+        return milliseconds / 10**3

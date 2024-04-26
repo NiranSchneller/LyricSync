@@ -18,7 +18,6 @@ aai.settings.api_key = "625058c65a9c4255af2179587a57e19a"
 logger = logging.getLogger(__name__)
 """
     Each time player inputs and then lock the resource @player_input
-
 """
 
 
@@ -38,27 +37,43 @@ def has_player_entered_input() -> bool:
     return out
 
 
+def play_song(song: Song, placeholder: str):
+    song.start_song()
+
+
+def display_song_lyrics(song: Song, placeholder: str):
+    previous_lyric = ""
+    while True:
+        current_lyric = song.get_current_lyric().lyric
+        if current_lyric == "" or previous_lyric == current_lyric:
+            continue
+        print(current_lyric)
+        previous_lyric = current_lyric
+
+
 def main():
     main_stopwatch: Stopwatch = Stopwatch()
     logging.basicConfig(filename="songbeats.log", level=logging.INFO)
 
-    def get_current_program_runtime() -> dict:
-        return {"programTime": main_stopwatch.get_elapsed()}
     logger.info("Beggining Thread initialization")
 
     global player_input
     input_thread = threading.Thread(target=handle_player)
-    logger.info("Thread Started")
     logger.info("Song construction")
     song = Song(
-        r"C:\Users\niran\Desktop\School\12thGrade\SongBeats\src\samples\Rap God.mp3")
+        r"C:\Users\niran\Desktop\School\12thGrade\SongBeats\src\samples\Mood.mp3")
     logger.info(f"Song constructed at time: {main_stopwatch.get_elapsed()}")
     gameUI = GameUI()
     user_lyric_tracker = UserLyricTracker(song.song_lyrics.lyrics)
+    song_thread = threading.Thread(target=play_song, args=(song, ""))
+    words_display_thread = threading.Thread(
+        target=display_song_lyrics, args=(song, ""))
+    song_thread.start()
+    words_display_thread.start()
     input_thread.start()
-    song.start_song()
     print("Song started")
-    while not song.song_ended():
+    # not song.song_ended()
+    while True:
         while not has_player_entered_input():  # Wait for input from the user
             if song.song_ended():  # While waiting for input, still check if song has finished
                 break
@@ -94,7 +109,10 @@ def main():
     player_success: bool = user_lyric_tracker.get_info_of_last_entered_lyric(
     ) is song.get_last_lyric()
     gameUI.song_ended(player_success)
+
     input_thread.join()
+    song_thread.join()
+    words_display_thread.join()
 
 
 if __name__ == "__main__":
