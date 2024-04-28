@@ -1,0 +1,2106 @@
+{
+    "song_url": "samples\\songs\\Mood.mp3",
+    "song_name": "Mood.mp3",
+    "song_lyrics": [
+        {
+            "lyric": "why",
+            "start_time": 16.36,
+            "end_time": 16.52
+        },
+        {
+            "lyric": "you",
+            "start_time": 16.52,
+            "end_time": 16.696
+        },
+        {
+            "lyric": "always",
+            "start_time": 16.702,
+            "end_time": 16.942
+        },
+        {
+            "lyric": "in",
+            "start_time": 16.998,
+            "end_time": 17.142
+        },
+        {
+            "lyric": "the",
+            "start_time": 17.158,
+            "end_time": 17.286
+        },
+        {
+            "lyric": "mood",
+            "start_time": 17.31,
+            "end_time": 17.702
+        },
+        {
+            "lyric": "fucking",
+            "start_time": 17.798,
+            "end_time": 18.23
+        },
+        {
+            "lyric": "around",
+            "start_time": 18.262,
+            "end_time": 18.502
+        },
+        {
+            "lyric": "acting",
+            "start_time": 18.558,
+            "end_time": 18.894
+        },
+        {
+            "lyric": "brand",
+            "start_time": 18.934,
+            "end_time": 19.182
+        },
+        {
+            "lyric": "new",
+            "start_time": 19.238,
+            "end_time": 19.718
+        },
+        {
+            "lyric": "i",
+            "start_time": 19.846,
+            "end_time": 20.062
+        },
+        {
+            "lyric": "ain't",
+            "start_time": 20.078,
+            "end_time": 20.206
+        },
+        {
+            "lyric": "trying",
+            "start_time": 20.23,
+            "end_time": 20.366
+        },
+        {
+            "lyric": "to",
+            "start_time": 20.39,
+            "end_time": 20.526
+        },
+        {
+            "lyric": "tell",
+            "start_time": 20.55,
+            "end_time": 20.71
+        },
+        {
+            "lyric": "you",
+            "start_time": 20.742,
+            "end_time": 20.886
+        },
+        {
+            "lyric": "what",
+            "start_time": 20.91,
+            "end_time": 21.046
+        },
+        {
+            "lyric": "to",
+            "start_time": 21.07,
+            "end_time": 21.23
+        },
+        {
+            "lyric": "do",
+            "start_time": 21.262,
+            "end_time": 21.574
+        },
+        {
+            "lyric": "but",
+            "start_time": 21.654,
+            "end_time": 21.87
+        },
+        {
+            "lyric": "try",
+            "start_time": 21.902,
+            "end_time": 22.046
+        },
+        {
+            "lyric": "to",
+            "start_time": 22.07,
+            "end_time": 22.206
+        },
+        {
+            "lyric": "play",
+            "start_time": 22.23,
+            "end_time": 22.462
+        },
+        {
+            "lyric": "cool",
+            "start_time": 22.518,
+            "end_time": 23.03
+        },
+        {
+            "lyric": "baby",
+            "start_time": 23.142,
+            "end_time": 23.51
+        },
+        {
+            "lyric": "i",
+            "start_time": 23.542,
+            "end_time": 23.662
+        },
+        {
+            "lyric": "ain't",
+            "start_time": 23.678,
+            "end_time": 23.806
+        },
+        {
+            "lyric": "playing",
+            "start_time": 23.83,
+            "end_time": 24.086
+        },
+        {
+            "lyric": "by",
+            "start_time": 24.15,
+            "end_time": 24.35
+        },
+        {
+            "lyric": "your",
+            "start_time": 24.382,
+            "end_time": 24.55
+        },
+        {
+            "lyric": "rules",
+            "start_time": 24.582,
+            "end_time": 25.086
+        },
+        {
+            "lyric": "everything",
+            "start_time": 25.19,
+            "end_time": 25.55
+        },
+        {
+            "lyric": "look",
+            "start_time": 25.622,
+            "end_time": 25.83
+        },
+        {
+            "lyric": "better",
+            "start_time": 25.862,
+            "end_time": 26.102
+        },
+        {
+            "lyric": "with",
+            "start_time": 26.158,
+            "end_time": 26.326
+        },
+        {
+            "lyric": "a",
+            "start_time": 26.35,
+            "end_time": 26.462
+        },
+        {
+            "lyric": "view",
+            "start_time": 26.478,
+            "end_time": 26.726
+        },
+        {
+            "lyric": "while",
+            "start_time": 26.79,
+            "end_time": 26.99
+        },
+        {
+            "lyric": "you",
+            "start_time": 27.022,
+            "end_time": 27.19
+        },
+        {
+            "lyric": "always",
+            "start_time": 27.222,
+            "end_time": 27.486
+        },
+        {
+            "lyric": "in",
+            "start_time": 27.55,
+            "end_time": 27.702
+        },
+        {
+            "lyric": "the",
+            "start_time": 27.718,
+            "end_time": 27.846
+        },
+        {
+            "lyric": "mood",
+            "start_time": 27.87,
+            "end_time": 28.302
+        },
+        {
+            "lyric": "fucking",
+            "start_time": 28.398,
+            "end_time": 28.814
+        },
+        {
+            "lyric": "around",
+            "start_time": 28.854,
+            "end_time": 29.078
+        },
+        {
+            "lyric": "like",
+            "start_time": 29.126,
+            "end_time": 29.286
+        },
+        {
+            "lyric": "i'm",
+            "start_time": 29.31,
+            "end_time": 29.47
+        },
+        {
+            "lyric": "brand",
+            "start_time": 29.502,
+            "end_time": 29.742
+        },
+        {
+            "lyric": "new",
+            "start_time": 29.798,
+            "end_time": 30.254
+        },
+        {
+            "lyric": "i",
+            "start_time": 30.374,
+            "end_time": 30.582
+        },
+        {
+            "lyric": "ain't",
+            "start_time": 30.598,
+            "end_time": 30.766
+        },
+        {
+            "lyric": "trying",
+            "start_time": 30.79,
+            "end_time": 30.926
+        },
+        {
+            "lyric": "to",
+            "start_time": 30.95,
+            "end_time": 31.086
+        },
+        {
+            "lyric": "tell",
+            "start_time": 31.11,
+            "end_time": 31.27
+        },
+        {
+            "lyric": "you",
+            "start_time": 31.302,
+            "end_time": 31.446
+        },
+        {
+            "lyric": "what",
+            "start_time": 31.47,
+            "end_time": 31.582
+        },
+        {
+            "lyric": "to",
+            "start_time": 31.598,
+            "end_time": 31.702
+        },
+        {
+            "lyric": "do",
+            "start_time": 31.718,
+            "end_time": 32.086
+        },
+        {
+            "lyric": "but",
+            "start_time": 32.19,
+            "end_time": 32.43
+        },
+        {
+            "lyric": "try",
+            "start_time": 32.462,
+            "end_time": 32.582
+        },
+        {
+            "lyric": "to",
+            "start_time": 32.598,
+            "end_time": 32.75
+        },
+        {
+            "lyric": "play",
+            "start_time": 32.782,
+            "end_time": 32.998
+        },
+        {
+            "lyric": "cool",
+            "start_time": 33.046,
+            "end_time": 33.59
+        },
+        {
+            "lyric": "baby",
+            "start_time": 33.702,
+            "end_time": 34.07
+        },
+        {
+            "lyric": "i",
+            "start_time": 34.102,
+            "end_time": 34.222
+        },
+        {
+            "lyric": "ain't",
+            "start_time": 34.238,
+            "end_time": 34.39
+        },
+        {
+            "lyric": "playing",
+            "start_time": 34.422,
+            "end_time": 34.662
+        },
+        {
+            "lyric": "by",
+            "start_time": 34.718,
+            "end_time": 34.886
+        },
+        {
+            "lyric": "your",
+            "start_time": 34.91,
+            "end_time": 35.07
+        },
+        {
+            "lyric": "rules",
+            "start_time": 35.102,
+            "end_time": 35.646
+        },
+        {
+            "lyric": "everything",
+            "start_time": 35.75,
+            "end_time": 36.11
+        },
+        {
+            "lyric": "look",
+            "start_time": 36.182,
+            "end_time": 36.39
+        },
+        {
+            "lyric": "better",
+            "start_time": 36.422,
+            "end_time": 36.662
+        },
+        {
+            "lyric": "with",
+            "start_time": 36.718,
+            "end_time": 37.006
+        },
+        {
+            "lyric": "you",
+            "start_time": 37.07,
+            "end_time": 37.342
+        },
+        {
+            "lyric": "i",
+            "start_time": 37.398,
+            "end_time": 37.542
+        },
+        {
+            "lyric": "can",
+            "start_time": 37.558,
+            "end_time": 37.686
+        },
+        {
+            "lyric": "never",
+            "start_time": 37.71,
+            "end_time": 37.942
+        },
+        {
+            "lyric": "get",
+            "start_time": 37.998,
+            "end_time": 38.214
+        },
+        {
+            "lyric": "attached",
+            "start_time": 38.254,
+            "end_time": 38.926
+        },
+        {
+            "lyric": "when",
+            "start_time": 38.99,
+            "end_time": 39.166
+        },
+        {
+            "lyric": "i",
+            "start_time": 39.19,
+            "end_time": 39.302
+        },
+        {
+            "lyric": "start",
+            "start_time": 39.318,
+            "end_time": 39.47
+        },
+        {
+            "lyric": "to",
+            "start_time": 39.502,
+            "end_time": 39.622
+        },
+        {
+            "lyric": "feel",
+            "start_time": 39.638,
+            "end_time": 39.838
+        },
+        {
+            "lyric": "i",
+            "start_time": 39.886,
+            "end_time": 40.046
+        },
+        {
+            "lyric": "unattached",
+            "start_time": 40.07,
+            "end_time": 40.902
+        },
+        {
+            "lyric": "somewhere",
+            "start_time": 40.958,
+            "end_time": 41.318
+        },
+        {
+            "lyric": "i",
+            "start_time": 41.366,
+            "end_time": 41.502
+        },
+        {
+            "lyric": "was",
+            "start_time": 41.518,
+            "end_time": 41.67
+        },
+        {
+            "lyric": "in",
+            "start_time": 41.702,
+            "end_time": 41.822
+        },
+        {
+            "lyric": "a",
+            "start_time": 41.838,
+            "end_time": 41.966
+        },
+        {
+            "lyric": "feeling",
+            "start_time": 41.99,
+            "end_time": 42.294
+        },
+        {
+            "lyric": "bad",
+            "start_time": 42.334,
+            "end_time": 42.606
+        },
+        {
+            "lyric": "maybe",
+            "start_time": 42.67,
+            "end_time": 42.958
+        },
+        {
+            "lyric": "i",
+            "start_time": 43.006,
+            "end_time": 43.166
+        },
+        {
+            "lyric": "am",
+            "start_time": 43.19,
+            "end_time": 43.326
+        },
+        {
+            "lyric": "not",
+            "start_time": 43.35,
+            "end_time": 43.462
+        },
+        {
+            "lyric": "your",
+            "start_time": 43.478,
+            "end_time": 43.63
+        },
+        {
+            "lyric": "dad",
+            "start_time": 43.662,
+            "end_time": 44.11
+        },
+        {
+            "lyric": "it's",
+            "start_time": 44.222,
+            "end_time": 44.486
+        },
+        {
+            "lyric": "not",
+            "start_time": 44.51,
+            "end_time": 44.646
+        },
+        {
+            "lyric": "all",
+            "start_time": 44.67,
+            "end_time": 44.83
+        },
+        {
+            "lyric": "you",
+            "start_time": 44.862,
+            "end_time": 45.006
+        },
+        {
+            "lyric": "want",
+            "start_time": 45.03,
+            "end_time": 45.19
+        },
+        {
+            "lyric": "from",
+            "start_time": 45.222,
+            "end_time": 45.438
+        },
+        {
+            "lyric": "me",
+            "start_time": 45.486,
+            "end_time": 46.03
+        },
+        {
+            "lyric": "i",
+            "start_time": 46.182,
+            "end_time": 46.422
+        },
+        {
+            "lyric": "just",
+            "start_time": 46.438,
+            "end_time": 46.59
+        },
+        {
+            "lyric": "want",
+            "start_time": 46.622,
+            "end_time": 46.766
+        },
+        {
+            "lyric": "your",
+            "start_time": 46.79,
+            "end_time": 46.95
+        },
+        {
+            "lyric": "company",
+            "start_time": 46.982,
+            "end_time": 47.554
+        },
+        {
+            "lyric": "girl",
+            "start_time": 48.414,
+            "end_time": 48.75
+        },
+        {
+            "lyric": "it's",
+            "start_time": 48.782,
+            "end_time": 48.966
+        },
+        {
+            "lyric": "obvious",
+            "start_time": 48.99,
+            "end_time": 49.47
+        },
+        {
+            "lyric": "elephant",
+            "start_time": 49.582,
+            "end_time": 50.15
+        },
+        {
+            "lyric": "in",
+            "start_time": 50.222,
+            "end_time": 50.406
+        },
+        {
+            "lyric": "the",
+            "start_time": 50.43,
+            "end_time": 50.662
+        },
+        {
+            "lyric": "room",
+            "start_time": 50.718,
+            "end_time": 51.102
+        },
+        {
+            "lyric": "we're",
+            "start_time": 51.198,
+            "end_time": 51.518
+        },
+        {
+            "lyric": "part",
+            "start_time": 51.566,
+            "end_time": 51.774
+        },
+        {
+            "lyric": "of",
+            "start_time": 51.814,
+            "end_time": 51.966
+        },
+        {
+            "lyric": "it",
+            "start_time": 51.99,
+            "end_time": 52.174
+        },
+        {
+            "lyric": "don't",
+            "start_time": 52.214,
+            "end_time": 52.454
+        },
+        {
+            "lyric": "act",
+            "start_time": 52.494,
+            "end_time": 52.67
+        },
+        {
+            "lyric": "so",
+            "start_time": 52.702,
+            "end_time": 52.942
+        },
+        {
+            "lyric": "confused",
+            "start_time": 52.998,
+            "end_time": 53.558
+        },
+        {
+            "lyric": "and",
+            "start_time": 53.646,
+            "end_time": 53.822
+        },
+        {
+            "lyric": "you",
+            "start_time": 53.838,
+            "end_time": 53.966
+        },
+        {
+            "lyric": "up",
+            "start_time": 53.99,
+            "end_time": 54.15
+        },
+        {
+            "lyric": "starting",
+            "start_time": 54.182,
+            "end_time": 54.55
+        },
+        {
+            "lyric": "it",
+            "start_time": 54.582,
+            "end_time": 54.798
+        },
+        {
+            "lyric": "now",
+            "start_time": 54.846,
+            "end_time": 55.078
+        },
+        {
+            "lyric": "i'm",
+            "start_time": 55.126,
+            "end_time": 55.414
+        },
+        {
+            "lyric": "in",
+            "start_time": 55.454,
+            "end_time": 55.63
+        },
+        {
+            "lyric": "the",
+            "start_time": 55.662,
+            "end_time": 55.806
+        },
+        {
+            "lyric": "mood",
+            "start_time": 55.83,
+            "end_time": 56.326
+        },
+        {
+            "lyric": "now",
+            "start_time": 56.43,
+            "end_time": 56.646
+        },
+        {
+            "lyric": "we",
+            "start_time": 56.67,
+            "end_time": 56.854
+        },
+        {
+            "lyric": "arguing",
+            "start_time": 56.894,
+            "end_time": 57.43
+        },
+        {
+            "lyric": "in",
+            "start_time": 57.502,
+            "end_time": 57.71
+        },
+        {
+            "lyric": "my",
+            "start_time": 57.742,
+            "end_time": 57.958
+        },
+        {
+            "lyric": "bedroom",
+            "start_time": 58.006,
+            "end_time": 58.998
+        },
+        {
+            "lyric": "we",
+            "start_time": 59.126,
+            "end_time": 59.414
+        },
+        {
+            "lyric": "play",
+            "start_time": 59.454,
+            "end_time": 59.774
+        },
+        {
+            "lyric": "games",
+            "start_time": 59.854,
+            "end_time": 60.166
+        },
+        {
+            "lyric": "of",
+            "start_time": 60.23,
+            "end_time": 60.43
+        },
+        {
+            "lyric": "love",
+            "start_time": 60.462,
+            "end_time": 60.942
+        },
+        {
+            "lyric": "to",
+            "start_time": 61.078,
+            "end_time": 61.518
+        },
+        {
+            "lyric": "avoid",
+            "start_time": 61.606,
+            "end_time": 62.342
+        },
+        {
+            "lyric": "the",
+            "start_time": 62.438,
+            "end_time": 62.814
+        },
+        {
+            "lyric": "depression",
+            "start_time": 62.894,
+            "end_time": 64.19
+        },
+        {
+            "lyric": "we've",
+            "start_time": 64.342,
+            "end_time": 64.75
+        },
+        {
+            "lyric": "been",
+            "start_time": 64.782,
+            "end_time": 65.046
+        },
+        {
+            "lyric": "here",
+            "start_time": 65.11,
+            "end_time": 65.358
+        },
+        {
+            "lyric": "before",
+            "start_time": 65.406,
+            "end_time": 66.07
+        },
+        {
+            "lyric": "and",
+            "start_time": 66.262,
+            "end_time": 66.71
+        },
+        {
+            "lyric": "i",
+            "start_time": 66.782,
+            "end_time": 67.038
+        },
+        {
+            "lyric": "won't",
+            "start_time": 67.086,
+            "end_time": 67.646
+        },
+        {
+            "lyric": "be",
+            "start_time": 67.71,
+            "end_time": 68.03
+        },
+        {
+            "lyric": "a",
+            "start_time": 68.102,
+            "end_time": 68.31
+        },
+        {
+            "lyric": "victim",
+            "start_time": 68.342,
+            "end_time": 68.99
+        },
+        {
+            "lyric": "why",
+            "start_time": 69.022,
+            "end_time": 69.19
+        },
+        {
+            "lyric": "you",
+            "start_time": 69.222,
+            "end_time": 69.39
+        },
+        {
+            "lyric": "always",
+            "start_time": 69.422,
+            "end_time": 69.662
+        },
+        {
+            "lyric": "in",
+            "start_time": 69.718,
+            "end_time": 69.862
+        },
+        {
+            "lyric": "the",
+            "start_time": 69.878,
+            "end_time": 70.006
+        },
+        {
+            "lyric": "mood",
+            "start_time": 70.03,
+            "end_time": 70.462
+        },
+        {
+            "lyric": "fuck",
+            "start_time": 70.558,
+            "end_time": 70.87
+        },
+        {
+            "lyric": "around",
+            "start_time": 70.902,
+            "end_time": 71.19
+        },
+        {
+            "lyric": "i",
+            "start_time": 71.262,
+            "end_time": 71.422
+        },
+        {
+            "lyric": "can",
+            "start_time": 71.438,
+            "end_time": 71.614
+        },
+        {
+            "lyric": "brand",
+            "start_time": 71.654,
+            "end_time": 71.878
+        },
+        {
+            "lyric": "new",
+            "start_time": 71.926,
+            "end_time": 72.422
+        },
+        {
+            "lyric": "i",
+            "start_time": 72.558,
+            "end_time": 72.782
+        },
+        {
+            "lyric": "ain't",
+            "start_time": 72.798,
+            "end_time": 72.926
+        },
+        {
+            "lyric": "trying",
+            "start_time": 72.95,
+            "end_time": 73.11
+        },
+        {
+            "lyric": "to",
+            "start_time": 73.142,
+            "end_time": 73.286
+        },
+        {
+            "lyric": "tell",
+            "start_time": 73.31,
+            "end_time": 73.47
+        },
+        {
+            "lyric": "you",
+            "start_time": 73.502,
+            "end_time": 73.622
+        },
+        {
+            "lyric": "what",
+            "start_time": 73.638,
+            "end_time": 73.766
+        },
+        {
+            "lyric": "to",
+            "start_time": 73.79,
+            "end_time": 73.95
+        },
+        {
+            "lyric": "do",
+            "start_time": 73.982,
+            "end_time": 74.318
+        },
+        {
+            "lyric": "but",
+            "start_time": 74.406,
+            "end_time": 74.606
+        },
+        {
+            "lyric": "try",
+            "start_time": 74.63,
+            "end_time": 74.79
+        },
+        {
+            "lyric": "to",
+            "start_time": 74.822,
+            "end_time": 74.942
+        },
+        {
+            "lyric": "play",
+            "start_time": 74.958,
+            "end_time": 75.182
+        },
+        {
+            "lyric": "cool",
+            "start_time": 75.238,
+            "end_time": 75.766
+        },
+        {
+            "lyric": "baby",
+            "start_time": 75.87,
+            "end_time": 76.23
+        },
+        {
+            "lyric": "i",
+            "start_time": 76.262,
+            "end_time": 76.382
+        },
+        {
+            "lyric": "ain't",
+            "start_time": 76.398,
+            "end_time": 76.55
+        },
+        {
+            "lyric": "playing",
+            "start_time": 76.582,
+            "end_time": 76.846
+        },
+        {
+            "lyric": "by",
+            "start_time": 76.91,
+            "end_time": 77.086
+        },
+        {
+            "lyric": "your",
+            "start_time": 77.11,
+            "end_time": 77.246
+        },
+        {
+            "lyric": "rules",
+            "start_time": 77.27,
+            "end_time": 77.83
+        },
+        {
+            "lyric": "everything",
+            "start_time": 77.942,
+            "end_time": 78.31
+        },
+        {
+            "lyric": "look",
+            "start_time": 78.382,
+            "end_time": 78.59
+        },
+        {
+            "lyric": "better",
+            "start_time": 78.622,
+            "end_time": 78.838
+        },
+        {
+            "lyric": "with",
+            "start_time": 78.886,
+            "end_time": 79.07
+        },
+        {
+            "lyric": "a",
+            "start_time": 79.102,
+            "end_time": 79.198
+        },
+        {
+            "lyric": "view",
+            "start_time": 79.206,
+            "end_time": 79.47
+        },
+        {
+            "lyric": "while",
+            "start_time": 79.542,
+            "end_time": 79.726
+        },
+        {
+            "lyric": "you",
+            "start_time": 79.75,
+            "end_time": 79.934
+        },
+        {
+            "lyric": "always",
+            "start_time": 79.974,
+            "end_time": 80.222
+        },
+        {
+            "lyric": "in",
+            "start_time": 80.278,
+            "end_time": 80.446
+        },
+        {
+            "lyric": "the",
+            "start_time": 80.47,
+            "end_time": 80.606
+        },
+        {
+            "lyric": "mood",
+            "start_time": 80.63,
+            "end_time": 81.062
+        },
+        {
+            "lyric": "fucking",
+            "start_time": 81.158,
+            "end_time": 81.534
+        },
+        {
+            "lyric": "around",
+            "start_time": 81.574,
+            "end_time": 81.798
+        },
+        {
+            "lyric": "like",
+            "start_time": 81.846,
+            "end_time": 82.03
+        },
+        {
+            "lyric": "i'm",
+            "start_time": 82.062,
+            "end_time": 82.206
+        },
+        {
+            "lyric": "brand",
+            "start_time": 82.23,
+            "end_time": 82.462
+        },
+        {
+            "lyric": "new",
+            "start_time": 82.518,
+            "end_time": 82.998
+        },
+        {
+            "lyric": "i",
+            "start_time": 83.126,
+            "end_time": 83.342
+        },
+        {
+            "lyric": "ain't",
+            "start_time": 83.358,
+            "end_time": 83.486
+        },
+        {
+            "lyric": "trying",
+            "start_time": 83.51,
+            "end_time": 83.67
+        },
+        {
+            "lyric": "to",
+            "start_time": 83.702,
+            "end_time": 83.846
+        },
+        {
+            "lyric": "tell",
+            "start_time": 83.87,
+            "end_time": 84.03
+        },
+        {
+            "lyric": "you",
+            "start_time": 84.062,
+            "end_time": 84.182
+        },
+        {
+            "lyric": "what",
+            "start_time": 84.198,
+            "end_time": 84.326
+        },
+        {
+            "lyric": "to",
+            "start_time": 84.35,
+            "end_time": 84.486
+        },
+        {
+            "lyric": "do",
+            "start_time": 84.51,
+            "end_time": 84.838
+        },
+        {
+            "lyric": "but",
+            "start_time": 84.926,
+            "end_time": 85.15
+        },
+        {
+            "lyric": "try",
+            "start_time": 85.182,
+            "end_time": 85.326
+        },
+        {
+            "lyric": "to",
+            "start_time": 85.35,
+            "end_time": 85.486
+        },
+        {
+            "lyric": "play",
+            "start_time": 85.51,
+            "end_time": 85.742
+        },
+        {
+            "lyric": "cool",
+            "start_time": 85.798,
+            "end_time": 86.31
+        },
+        {
+            "lyric": "baby",
+            "start_time": 86.422,
+            "end_time": 86.79
+        },
+        {
+            "lyric": "i",
+            "start_time": 86.822,
+            "end_time": 86.942
+        },
+        {
+            "lyric": "ain't",
+            "start_time": 86.958,
+            "end_time": 87.11
+        },
+        {
+            "lyric": "playing",
+            "start_time": 87.142,
+            "end_time": 87.406
+        },
+        {
+            "lyric": "by",
+            "start_time": 87.47,
+            "end_time": 87.646
+        },
+        {
+            "lyric": "your",
+            "start_time": 87.67,
+            "end_time": 87.806
+        },
+        {
+            "lyric": "rules",
+            "start_time": 87.83,
+            "end_time": 88.39
+        },
+        {
+            "lyric": "everything",
+            "start_time": 88.502,
+            "end_time": 88.87
+        },
+        {
+            "lyric": "look",
+            "start_time": 88.942,
+            "end_time": 89.15
+        },
+        {
+            "lyric": "better",
+            "start_time": 89.182,
+            "end_time": 89.398
+        },
+        {
+            "lyric": "with",
+            "start_time": 89.446,
+            "end_time": 89.63
+        },
+        {
+            "lyric": "a",
+            "start_time": 89.662,
+            "end_time": 89.758
+        },
+        {
+            "lyric": "view",
+            "start_time": 89.766,
+            "end_time": 90.342
+        },
+        {
+            "lyric": "so",
+            "start_time": 90.518,
+            "end_time": 90.806
+        },
+        {
+            "lyric": "are",
+            "start_time": 90.83,
+            "end_time": 90.942
+        },
+        {
+            "lyric": "you",
+            "start_time": 90.958,
+            "end_time": 91.086
+        },
+        {
+            "lyric": "trying",
+            "start_time": 91.11,
+            "end_time": 91.294
+        },
+        {
+            "lyric": "to",
+            "start_time": 91.334,
+            "end_time": 91.462
+        },
+        {
+            "lyric": "play",
+            "start_time": 91.478,
+            "end_time": 91.606
+        },
+        {
+            "lyric": "your",
+            "start_time": 91.63,
+            "end_time": 91.79
+        },
+        {
+            "lyric": "love",
+            "start_time": 91.822,
+            "end_time": 92.062
+        },
+        {
+            "lyric": "on",
+            "start_time": 92.118,
+            "end_time": 92.286
+        },
+        {
+            "lyric": "a",
+            "start_time": 92.31,
+            "end_time": 92.422
+        },
+        {
+            "lyric": "regular",
+            "start_time": 92.438,
+            "end_time": 93.118
+        },
+        {
+            "lyric": "when",
+            "start_time": 93.286,
+            "end_time": 93.59
+        },
+        {
+            "lyric": "you",
+            "start_time": 93.622,
+            "end_time": 93.766
+        },
+        {
+            "lyric": "could",
+            "start_time": 93.79,
+            "end_time": 93.95
+        },
+        {
+            "lyric": "be",
+            "start_time": 93.982,
+            "end_time": 94.102
+        },
+        {
+            "lyric": "blowing",
+            "start_time": 94.118,
+            "end_time": 94.414
+        },
+        {
+            "lyric": "up",
+            "start_time": 94.454,
+            "end_time": 94.702
+        },
+        {
+            "lyric": "i'm",
+            "start_time": 94.758,
+            "end_time": 94.878
+        },
+        {
+            "lyric": "gonna",
+            "start_time": 94.886,
+            "end_time": 95.006
+        },
+        {
+            "lyric": "show",
+            "start_time": 95.03,
+            "end_time": 95.166
+        },
+        {
+            "lyric": "you",
+            "start_time": 95.19,
+            "end_time": 95.35
+        },
+        {
+            "lyric": "love",
+            "start_time": 95.382,
+            "end_time": 95.862
+        },
+        {
+            "lyric": "i",
+            "start_time": 95.998,
+            "end_time": 96.222
+        },
+        {
+            "lyric": "will",
+            "start_time": 96.238,
+            "end_time": 96.414
+        },
+        {
+            "lyric": "never",
+            "start_time": 96.454,
+            "end_time": 96.678
+        },
+        {
+            "lyric": "let",
+            "start_time": 96.726,
+            "end_time": 96.886
+        },
+        {
+            "lyric": "a",
+            "start_time": 96.91,
+            "end_time": 97.022
+        },
+        {
+            "lyric": "shuttie",
+            "start_time": 97.038,
+            "end_time": 97.366
+        },
+        {
+            "lyric": "go",
+            "start_time": 97.39,
+            "end_time": 97.526
+        },
+        {
+            "lyric": "and",
+            "start_time": 97.55,
+            "end_time": 97.686
+        },
+        {
+            "lyric": "set",
+            "start_time": 97.71,
+            "end_time": 97.87
+        },
+        {
+            "lyric": "me",
+            "start_time": 97.902,
+            "end_time": 98.094
+        },
+        {
+            "lyric": "up",
+            "start_time": 98.134,
+            "end_time": 98.55
+        },
+        {
+            "lyric": "only",
+            "start_time": 98.662,
+            "end_time": 98.958
+        },
+        {
+            "lyric": "thing",
+            "start_time": 99.006,
+            "end_time": 99.214
+        },
+        {
+            "lyric": "i",
+            "start_time": 99.254,
+            "end_time": 99.382
+        },
+        {
+            "lyric": "need",
+            "start_time": 99.398,
+            "end_time": 99.526
+        },
+        {
+            "lyric": "to",
+            "start_time": 99.55,
+            "end_time": 99.686
+        },
+        {
+            "lyric": "know",
+            "start_time": 99.71,
+            "end_time": 99.87
+        },
+        {
+            "lyric": "is",
+            "start_time": 99.902,
+            "end_time": 100.046
+        },
+        {
+            "lyric": "if",
+            "start_time": 100.07,
+            "end_time": 100.206
+        },
+        {
+            "lyric": "you",
+            "start_time": 100.23,
+            "end_time": 100.366
+        },
+        {
+            "lyric": "wet",
+            "start_time": 100.39,
+            "end_time": 100.55
+        },
+        {
+            "lyric": "enough",
+            "start_time": 100.582,
+            "end_time": 100.99
+        },
+        {
+            "lyric": "i'm",
+            "start_time": 101.102,
+            "end_time": 101.326
+        },
+        {
+            "lyric": "talking",
+            "start_time": 101.35,
+            "end_time": 101.63
+        },
+        {
+            "lyric": "slick",
+            "start_time": 101.662,
+            "end_time": 101.958
+        },
+        {
+            "lyric": "back",
+            "start_time": 102.006,
+            "end_time": 102.262
+        },
+        {
+            "lyric": "kickback",
+            "start_time": 102.318,
+            "end_time": 102.902
+        },
+        {
+            "lyric": "gangs",
+            "start_time": 102.958,
+            "end_time": 103.326
+        },
+        {
+            "lyric": "have",
+            "start_time": 103.35,
+            "end_time": 103.438
+        },
+        {
+            "lyric": "been",
+            "start_time": 103.446,
+            "end_time": 103.614
+        },
+        {
+            "lyric": "parties",
+            "start_time": 103.654,
+            "end_time": 104.214
+        },
+        {
+            "lyric": "you",
+            "start_time": 104.294,
+            "end_time": 104.462
+        },
+        {
+            "lyric": "keep",
+            "start_time": 104.478,
+            "end_time": 104.606
+        },
+        {
+            "lyric": "playing",
+            "start_time": 104.63,
+            "end_time": 104.91
+        },
+        {
+            "lyric": "on",
+            "start_time": 104.982,
+            "end_time": 105.214
+        },
+        {
+            "lyric": "the",
+            "start_time": 105.254,
+            "end_time": 105.358
+        },
+        {
+            "lyric": "other",
+            "start_time": 105.366,
+            "end_time": 105.558
+        },
+        {
+            "lyric": "day",
+            "start_time": 105.606,
+            "end_time": 105.862
+        },
+        {
+            "lyric": "with",
+            "start_time": 105.918,
+            "end_time": 106.086
+        },
+        {
+            "lyric": "your",
+            "start_time": 106.11,
+            "end_time": 106.246
+        },
+        {
+            "lyric": "sorting",
+            "start_time": 106.27,
+            "end_time": 106.806
+        },
+        {
+            "lyric": "mismatch",
+            "start_time": 106.91,
+            "end_time": 107.502
+        },
+        {
+            "lyric": "fish",
+            "start_time": 107.558,
+            "end_time": 107.862
+        },
+        {
+            "lyric": "that",
+            "start_time": 107.918,
+            "end_time": 108.086
+        },
+        {
+            "lyric": "was",
+            "start_time": 108.11,
+            "end_time": 108.27
+        },
+        {
+            "lyric": "way",
+            "start_time": 108.302,
+            "end_time": 108.446
+        },
+        {
+            "lyric": "before",
+            "start_time": 108.47,
+            "end_time": 108.702
+        },
+        {
+            "lyric": "you",
+            "start_time": 108.758,
+            "end_time": 108.926
+        },
+        {
+            "lyric": "know",
+            "start_time": 108.95,
+            "end_time": 109.158
+        },
+        {
+            "lyric": "me",
+            "start_time": 109.206,
+            "end_time": 109.51
+        },
+        {
+            "lyric": "got",
+            "start_time": 109.582,
+            "end_time": 109.79
+        },
+        {
+            "lyric": "a",
+            "start_time": 109.822,
+            "end_time": 109.942
+        },
+        {
+            "lyric": "lot",
+            "start_time": 109.958,
+            "end_time": 110.11
+        },
+        {
+            "lyric": "of",
+            "start_time": 110.142,
+            "end_time": 110.262
+        },
+        {
+            "lyric": "love",
+            "start_time": 110.278,
+            "end_time": 110.502
+        },
+        {
+            "lyric": "but",
+            "start_time": 110.558,
+            "end_time": 110.726
+        },
+        {
+            "lyric": "you",
+            "start_time": 110.75,
+            "end_time": 110.886
+        },
+        {
+            "lyric": "better",
+            "start_time": 110.91,
+            "end_time": 111.118
+        },
+        {
+            "lyric": "save",
+            "start_time": 111.166,
+            "end_time": 111.39
+        },
+        {
+            "lyric": "it",
+            "start_time": 111.422,
+            "end_time": 111.542
+        },
+        {
+            "lyric": "for",
+            "start_time": 111.558,
+            "end_time": 111.71
+        },
+        {
+            "lyric": "me",
+            "start_time": 111.742,
+            "end_time": 111.934
+        },
+        {
+            "lyric": "we",
+            "start_time": 111.974,
+            "end_time": 112.174
+        },
+        {
+            "lyric": "play",
+            "start_time": 112.214,
+            "end_time": 112.51
+        },
+        {
+            "lyric": "games",
+            "start_time": 112.582,
+            "end_time": 112.91
+        },
+        {
+            "lyric": "of",
+            "start_time": 112.982,
+            "end_time": 113.19
+        },
+        {
+            "lyric": "love",
+            "start_time": 113.222,
+            "end_time": 113.678
+        },
+        {
+            "lyric": "to",
+            "start_time": 113.806,
+            "end_time": 114.238
+        },
+        {
+            "lyric": "avoid",
+            "start_time": 114.326,
+            "end_time": 115.102
+        },
+        {
+            "lyric": "the",
+            "start_time": 115.198,
+            "end_time": 115.55
+        },
+        {
+            "lyric": "depression",
+            "start_time": 115.622,
+            "end_time": 116.926
+        },
+        {
+            "lyric": "we've",
+            "start_time": 117.07,
+            "end_time": 117.494
+        },
+        {
+            "lyric": "been",
+            "start_time": 117.534,
+            "end_time": 117.782
+        },
+        {
+            "lyric": "here",
+            "start_time": 117.838,
+            "end_time": 118.102
+        },
+        {
+            "lyric": "before",
+            "start_time": 118.158,
+            "end_time": 118.83
+        },
+        {
+            "lyric": "and",
+            "start_time": 119.022,
+            "end_time": 119.422
+        },
+        {
+            "lyric": "i",
+            "start_time": 119.478,
+            "end_time": 119.718
+        },
+        {
+            "lyric": "won't",
+            "start_time": 119.766,
+            "end_time": 120.35
+        },
+        {
+            "lyric": "be",
+            "start_time": 120.422,
+            "end_time": 120.75
+        },
+        {
+            "lyric": "a",
+            "start_time": 120.822,
+            "end_time": 121.078
+        },
+        {
+            "lyric": "bit",
+            "start_time": 121.126,
+            "end_time": 121.574
+        },
+        {
+            "lyric": "why",
+            "start_time": 121.694,
+            "end_time": 121.95
+        },
+        {
+            "lyric": "you",
+            "start_time": 121.982,
+            "end_time": 122.15
+        },
+        {
+            "lyric": "always",
+            "start_time": 122.182,
+            "end_time": 122.422
+        },
+        {
+            "lyric": "in",
+            "start_time": 122.478,
+            "end_time": 122.622
+        },
+        {
+            "lyric": "the",
+            "start_time": 122.638,
+            "end_time": 122.766
+        },
+        {
+            "lyric": "mood",
+            "start_time": 122.79,
+            "end_time": 123.222
+        },
+        {
+            "lyric": "fucking",
+            "start_time": 123.318,
+            "end_time": 123.734
+        },
+        {
+            "lyric": "around",
+            "start_time": 123.774,
+            "end_time": 123.998
+        },
+        {
+            "lyric": "acting",
+            "start_time": 124.046,
+            "end_time": 124.374
+        },
+        {
+            "lyric": "brand",
+            "start_time": 124.414,
+            "end_time": 124.686
+        },
+        {
+            "lyric": "new",
+            "start_time": 124.75,
+            "end_time": 125.226
+        },
+        {
+            "lyric": "i",
+            "start_time": 125.35,
+            "end_time": 125.538
+        },
+        {
+            "lyric": "ain't",
+            "start_time": 125.546,
+            "end_time": 125.69
+        },
+        {
+            "lyric": "trying",
+            "start_time": 125.722,
+            "end_time": 125.866
+        },
+        {
+            "lyric": "to",
+            "start_time": 125.89,
+            "end_time": 126.026
+        },
+        {
+            "lyric": "tell",
+            "start_time": 126.05,
+            "end_time": 126.21
+        },
+        {
+            "lyric": "you",
+            "start_time": 126.242,
+            "end_time": 126.386
+        },
+        {
+            "lyric": "what",
+            "start_time": 126.41,
+            "end_time": 126.522
+        },
+        {
+            "lyric": "to",
+            "start_time": 126.538,
+            "end_time": 126.69
+        },
+        {
+            "lyric": "do",
+            "start_time": 126.722,
+            "end_time": 127.058
+        },
+        {
+            "lyric": "but",
+            "start_time": 127.146,
+            "end_time": 127.346
+        },
+        {
+            "lyric": "try",
+            "start_time": 127.37,
+            "end_time": 127.506
+        },
+        {
+            "lyric": "to",
+            "start_time": 127.53,
+            "end_time": 127.69
+        },
+        {
+            "lyric": "play",
+            "start_time": 127.722,
+            "end_time": 127.938
+        },
+        {
+            "lyric": "cool",
+            "start_time": 127.986,
+            "end_time": 128.53
+        },
+        {
+            "lyric": "baby",
+            "start_time": 128.642,
+            "end_time": 128.994
+        },
+        {
+            "lyric": "i'm",
+            "start_time": 129.034,
+            "end_time": 129.306
+        },
+        {
+            "lyric": "playing",
+            "start_time": 129.33,
+            "end_time": 129.586
+        },
+        {
+            "lyric": "by",
+            "start_time": 129.65,
+            "end_time": 129.826
+        },
+        {
+            "lyric": "your",
+            "start_time": 129.85,
+            "end_time": 130.034
+        },
+        {
+            "lyric": "rules",
+            "start_time": 130.074,
+            "end_time": 130.57
+        },
+        {
+            "lyric": "everything",
+            "start_time": 130.682,
+            "end_time": 131.05
+        },
+        {
+            "lyric": "look",
+            "start_time": 131.122,
+            "end_time": 131.33
+        },
+        {
+            "lyric": "better",
+            "start_time": 131.362,
+            "end_time": 131.602
+        },
+        {
+            "lyric": "with",
+            "start_time": 131.658,
+            "end_time": 131.826
+        },
+        {
+            "lyric": "a",
+            "start_time": 131.85,
+            "end_time": 131.962
+        },
+        {
+            "lyric": "view",
+            "start_time": 131.978,
+            "end_time": 132.226
+        },
+        {
+            "lyric": "while",
+            "start_time": 132.29,
+            "end_time": 132.49
+        },
+        {
+            "lyric": "you",
+            "start_time": 132.522,
+            "end_time": 132.69
+        },
+        {
+            "lyric": "always",
+            "start_time": 132.722,
+            "end_time": 132.962
+        },
+        {
+            "lyric": "in",
+            "start_time": 133.018,
+            "end_time": 133.162
+        },
+        {
+            "lyric": "the",
+            "start_time": 133.178,
+            "end_time": 133.33
+        },
+        {
+            "lyric": "mood",
+            "start_time": 133.362,
+            "end_time": 133.802
+        },
+        {
+            "lyric": "walking",
+            "start_time": 133.898,
+            "end_time": 134.29
+        },
+        {
+            "lyric": "around",
+            "start_time": 134.322,
+            "end_time": 134.562
+        },
+        {
+            "lyric": "like",
+            "start_time": 134.618,
+            "end_time": 134.786
+        },
+        {
+            "lyric": "i'm",
+            "start_time": 134.81,
+            "end_time": 134.97
+        },
+        {
+            "lyric": "brand",
+            "start_time": 135.002,
+            "end_time": 135.194
+        },
+        {
+            "lyric": "new",
+            "start_time": 135.234,
+            "end_time": 135.722
+        },
+        {
+            "lyric": "i",
+            "start_time": 135.858,
+            "end_time": 136.082
+        },
+        {
+            "lyric": "ain't",
+            "start_time": 136.098,
+            "end_time": 136.25
+        },
+        {
+            "lyric": "trying",
+            "start_time": 136.282,
+            "end_time": 136.426
+        },
+        {
+            "lyric": "to",
+            "start_time": 136.45,
+            "end_time": 136.586
+        },
+        {
+            "lyric": "tell",
+            "start_time": 136.61,
+            "end_time": 136.77
+        },
+        {
+            "lyric": "you",
+            "start_time": 136.802,
+            "end_time": 136.946
+        },
+        {
+            "lyric": "what",
+            "start_time": 136.97,
+            "end_time": 137.082
+        },
+        {
+            "lyric": "to",
+            "start_time": 137.098,
+            "end_time": 137.25
+        },
+        {
+            "lyric": "do",
+            "start_time": 137.282,
+            "end_time": 137.594
+        },
+        {
+            "lyric": "but",
+            "start_time": 137.674,
+            "end_time": 137.89
+        },
+        {
+            "lyric": "try",
+            "start_time": 137.922,
+            "end_time": 138.066
+        },
+        {
+            "lyric": "to",
+            "start_time": 138.09,
+            "end_time": 138.226
+        },
+        {
+            "lyric": "play",
+            "start_time": 138.25,
+            "end_time": 138.482
+        },
+        {
+            "lyric": "cool",
+            "start_time": 138.538,
+            "end_time": 139.05
+        },
+        {
+            "lyric": "baby",
+            "start_time": 139.162,
+            "end_time": 139.554
+        },
+        {
+            "lyric": "i",
+            "start_time": 139.594,
+            "end_time": 139.722
+        },
+        {
+            "lyric": "ain't",
+            "start_time": 139.738,
+            "end_time": 139.866
+        },
+        {
+            "lyric": "playing",
+            "start_time": 139.89,
+            "end_time": 140.146
+        },
+        {
+            "lyric": "by",
+            "start_time": 140.21,
+            "end_time": 140.386
+        },
+        {
+            "lyric": "your",
+            "start_time": 140.41,
+            "end_time": 140.594
+        },
+        {
+            "lyric": "rules",
+            "start_time": 140.634,
+            "end_time": 141.13
+        },
+        {
+            "lyric": "everything",
+            "start_time": 141.242,
+            "end_time": 141.61
+        },
+        {
+            "lyric": "look",
+            "start_time": 141.682,
+            "end_time": 141.89
+        },
+        {
+            "lyric": "better",
+            "start_time": 141.922,
+            "end_time": 142.138
+        },
+        {
+            "lyric": "with",
+            "start_time": 142.186,
+            "end_time": 142.37
+        },
+        {
+            "lyric": "a",
+            "start_time": 142.402,
+            "end_time": 142.522
+        },
+        {
+            "lyric": "view",
+            "start_time": 142.538,
+            "end_time": 142.594
+        }
+    ]
+}

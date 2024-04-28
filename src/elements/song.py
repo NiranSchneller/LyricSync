@@ -6,6 +6,9 @@ from elements.stopwatch import Stopwatch
 from elements.song_lyrics import SongLyrics
 import logging
 import assemblyai as aai
+from typing import Dict, Union
+import json
+import os
 aai.settings.api_key = "625058c65a9c4255af2179587a57e19a"  # Secret lol
 """
     This class represents a song. Once a song is started, the get_current_lyric function is used
@@ -16,19 +19,26 @@ aai.settings.api_key = "625058c65a9c4255af2179587a57e19a"  # Secret lol
     Not calling start_song before song_ended can lead to undesirable results.
 """
 
+logger = logging.getLogger(__name__)
+
 
 class Song:
-    def __init__(self, song_url: str) -> None:
+    def __init__(self, song_url: str, song_name: str, transcribe: bool = True) -> None:
         # Generating the transcript and all the lyrics + timestamps
-        self.song_lyrics: SongLyrics = SongLyrics(
-            aai.Transcriber().transcribe(song_url))
+
+        if transcribe:
+            self.song_lyrics: SongLyrics = SongLyrics(
+                aai.Transcriber().transcribe(song_url))
+        else:
+
+            self.song_lyrics = SongLyrics()
         self.timer: Stopwatch = Stopwatch()
-        self.song_url = song_url
         self.ended: bool = False
+        self.song_url = song_url
+        self.song_name = song_name
 
     def start_song(self):
         play(AudioSegment.from_mp3(self.song_url))
-        print("success!!!")
         self.timer.reset()
         self.ended = False
 
@@ -51,3 +61,29 @@ class Song:
 
     def get_all_lyrics(self) -> List[str]:
         return [lyric_info.lyric for lyric_info in self.song_lyrics.lyrics]
+
+    @property
+    def json_format(self) -> Dict[str, Union[str, List[Dict[str, str | float]]]]:
+        return {
+            "song_url": self.song_url,
+            "song_name": self.song_name,
+            "song_lyrics": self.song_lyrics.json_format
+        }
+
+    @staticmethod
+    def from_json(json_string: str) -> "Song":
+        json_format = json.loads(json_string)
+        print(json_format)
+        song_lyrics = SongLyrics()
+
+        temp = json_format["song_lyrics"]
+        song_lyrics_lyrics = []
+        for dictionary in temp:
+            song_lyrics_lyrics.append(LyricInformation(
+                dictionary["lyric"], (dictionary["start_time"]), dictionary["end_time"]))
+
+        song_lyrics.lyrics = song_lyrics_lyrics
+
+        out = Song(json_format["song_url"], json_format["song_name"], False)
+        out.song_lyrics = song_lyrics
+        return out

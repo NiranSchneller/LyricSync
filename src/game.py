@@ -1,21 +1,29 @@
 import logging
 import assemblyai as aai
-import threading
+from threading import Thread, Lock
 from elements.song import Song
 from elements.user_lyric_tracker import UserLyricTracker
 from gui.game_ui import GameUI
-from typing import List
+from typing import List, Tuple, Union
 from elements.stopwatch import Stopwatch
 import math
-
-mutex: threading.Lock = threading.Lock()
-player_input: str = ""
+from os import path
+import os
+import json
 # If FAILED_THRESHOLD seconds behind, the player failed entering the songs lyrics according to the beat
 FAILED_THRESHOLD = 3
-
+BASE_JSON_FOLDER = r"samples\jsons"
+BASE_SONGS_FOLDER = r"samples\songs"
+BASE_LOGS_FOLDER = r"logs"
+SONG_TO_PLAY = r"Mood.json"
 # Initialization
 aai.settings.api_key = "625058c65a9c4255af2179587a57e19a"
 logger = logging.getLogger(__name__)
+logging.basicConfig(filename=path.join(
+    os.getcwd(), BASE_LOGS_FOLDER, "songbeats.log"), level=logging.INFO)
+
+mutex: Lock = Lock()
+player_input: str = ""
 """
     Each time player inputs and then lock the resource @player_input
 """
@@ -51,28 +59,50 @@ def display_song_lyrics(song: Song, placeholder: str):
         previous_lyric = current_lyric
 
 
-def main():
+def dump_song_to_json(song: Song, baseFolder: str) -> None:
+    with open(path.join(baseFolder, song.song_name.replace("mp3", "json")), "w") as json_file:
+        json_file.write(json.dumps(song.json_format, indent=4))
+
+
+def create_song(json_or_file_path: str) -> Song:
+    if ".json" in json_or_file_path:
+        json_string = ""
+        with open(json_or_file_path, "r") as file:
+            json_string += file.read()
+        return Song.from_json(json_string)
+    else:
+        return Song(json_or_file_path, path.basename(json_or_file_path))
+
+
+def create_game_objects(song_json_or_file_path: str, base_folder_for_dump) -> (Tuple[Stopwatch, Thread, Song, GameUI,
+                                                                                     UserLyricTracker, Thread, Thread]):
     main_stopwatch: Stopwatch = Stopwatch()
-    logging.basicConfig(filename="songbeats.log", level=logging.INFO)
-
-    logger.info("Beggining Thread initialization")
-
-    global player_input
-    input_thread = threading.Thread(target=handle_player)
+    input_thread = Thread(target=handle_player)
     logger.info("Song construction")
-    song = Song(
-        r"C:\Users\niran\Desktop\School\12thGrade\SongBeats\src\samples\Mood.mp3")
-    logger.info(f"Song constructed at time: {main_stopwatch.get_elapsed()}")
+    song: Song = create_song(song_json_or_file_path)
+    logger.info(
+        f"Song constructed at time: {main_stopwatch.get_elapsed()}. Dumping to matching JSON in folder /samples/jsons...")
+    dump_song_to_json(song, base_folder_for_dump)
+    print("Song started!")
     gameUI = GameUI()
     user_lyric_tracker = UserLyricTracker(song.song_lyrics.lyrics)
-    song_thread = threading.Thread(target=play_song, args=(song, ""))
-    words_display_thread = threading.Thread(
+    song_thread = Thread(target=play_song, args=(song, ""))
+    words_display_thread = Thread(
         target=display_song_lyrics, args=(song, ""))
+    return main_stopwatch, input_thread, song, gameUI, user_lyric_tracker, song_thread, words_display_thread
+
+
+def main():
+    main_stopwatch, input_thread, song, gameUI, user_lyric_tracker, song_thread, words_display_thread = (
+        create_game_objects(path.join(BASE_JSON_FOLDER, SONG_TO_PLAY), BASE_JSON_FOLDER))
+    logger.info(f"cwd: {os.getcwd()}")
+    global player_input
+
     song_thread.start()
     words_display_thread.start()
     input_thread.start()
-    print("Song started")
     # not song.song_ended()
+    print("Will start printing lyrics")
     while True:
         while not has_player_entered_input():  # Wait for input from the user
             if song.song_ended():  # While waiting for input, still check if song has finished
@@ -109,7 +139,6 @@ def main():
     player_success: bool = user_lyric_tracker.get_info_of_last_entered_lyric(
     ) is song.get_last_lyric()
     gameUI.song_ended(player_success)
-
     input_thread.join()
     song_thread.join()
     words_display_thread.join()
