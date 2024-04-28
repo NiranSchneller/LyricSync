@@ -55,8 +55,6 @@ class SongLyrics:
         for lyric_information in self.lyrics[::-1]:
             start_time_seconds = lyric_information.start_time
             if timestamp > start_time_seconds:
-                logger.info(
-                    f"Current lyric: {lyric_information}, current Time: {timestamp}")
                 return lyric_information
             
         logger.info(f"Not a single word that fits, timestamp: {timestamp}")

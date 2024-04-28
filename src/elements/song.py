@@ -8,7 +8,7 @@ import logging
 import assemblyai as aai
 from typing import Dict, Union
 import json
-import os
+import pygame
 aai.settings.api_key = "625058c65a9c4255af2179587a57e19a"  # Secret lol
 """
     This class represents a song. Once a song is started, the get_current_lyric function is used
@@ -38,7 +38,10 @@ class Song:
         self.song_name = song_name
 
     def start_song(self):
-        play(AudioSegment.from_mp3(self.song_url))
+        pygame.init()
+        pygame.mixer.music.load(self.song_url)
+        pygame.mixer.music.play()
+
         self.timer.reset()
         self.ended = False
 
@@ -73,7 +76,6 @@ class Song:
     @staticmethod
     def from_json(json_string: str) -> "Song":
         json_format = json.loads(json_string)
-        print(json_format)
         song_lyrics = SongLyrics()
 
         temp = json_format["song_lyrics"]
