@@ -1,5 +1,4 @@
 import logging
-import assemblyai as aai
 from threading import Thread, Event
 from elements.song import Song
 from elements.user_lyric_tracker import UserLyricTracker
@@ -15,11 +14,9 @@ import pyqt6_tools
 # If FAILED_THRESHOLD seconds behind, the player failed entering the songs lyrics according to the beat
 FAILED_THRESHOLD = 3
 BASE_JSON_FOLDER = r"samples\jsons"
-BASE_SONGS_FOLDER = r"samples\songs"
 BASE_LOGS_FOLDER = r"logs"
-SONG_TO_PLAY = r"Rap God.json"
+SONG_TO_PLAY = r"Mood.json"
 # Initialization
-aai.settings.api_key = "625058c65a9c4255af2179587a57e19a"
 logger = logging.getLogger(__name__)
 logging.basicConfig(filename=path.join(
     os.getcwd(), BASE_LOGS_FOLDER, "songbeats.log"), level=logging.INFO)
@@ -53,9 +50,6 @@ def display_song_lyrics(song: Song, display_event: Event):
         previous_lyric = current_lyric
 
 
-def dump_song_to_json(song: Song, baseFolder: str) -> None:
-    with open(path.join(baseFolder, song.song_name.replace("mp3", "json")), "w") as json_file:
-        json_file.write(json.dumps(song.json_format, indent=4))
 
 
 def create_song(json_or_file_path: str) -> Song:
@@ -68,16 +62,13 @@ def create_song(json_or_file_path: str) -> Song:
         return Song(json_or_file_path, path.basename(json_or_file_path))
 
 
-def create_game_objects(song_json_or_file_path: str, base_folder_for_dump) -> (Tuple[Stopwatch, Thread, Song, GameUI,
+def create_game_objects(song_json_or_file_path: str) -> (Tuple[Stopwatch, Thread, Song, GameUI,
                                                                                      UserLyricTracker, Thread, Thread, Event]):
     main_stopwatch: Stopwatch = Stopwatch()
     input_thread = Thread(target=handle_player)
     logger.info("Song construction")
     song: Song = create_song(song_json_or_file_path)
-    logger.info(
-        f"Song constructed at time: {main_stopwatch.get_elapsed()}." +
-        "Dumping to matching JSON in folder /samples/jsons...")
-    dump_song_to_json(song, base_folder_for_dump)
+    logger.info(f"Song constructed at time: {main_stopwatch.get_elapsed()}")
     gameUI = GameUI()
     user_lyric_tracker = UserLyricTracker(song.song_lyrics.lyrics)
     song_thread = Thread(target=play_song, args=(song, ""))
@@ -90,7 +81,7 @@ def create_game_objects(song_json_or_file_path: str, base_folder_for_dump) -> (T
 
 def main():
     main_stopwatch, input_thread, song, gameUI, user_lyric_tracker, song_thread, words_display_thread, display_event = (
-        create_game_objects(path.join(BASE_JSON_FOLDER, SONG_TO_PLAY), BASE_JSON_FOLDER))
+        create_game_objects(path.join(BASE_JSON_FOLDER, SONG_TO_PLAY)))
     global player_input
 
     song.start_song()    

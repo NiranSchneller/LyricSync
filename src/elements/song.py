@@ -1,5 +1,3 @@
-from pydub import AudioSegment
-from pydub.playback import play
 from typing import List
 from elements.lyric_information import LyricInformation
 from elements.stopwatch import Stopwatch
@@ -9,7 +7,6 @@ import assemblyai as aai
 from typing import Dict, Union
 import json
 import pygame
-aai.settings.api_key = "625058c65a9c4255af2179587a57e19a"  # Secret lol
 """
     This class represents a song. Once a song is started, the get_current_lyric function is used
     to get the current lyric according to a timer initialized when the song was started.
@@ -30,7 +27,6 @@ class Song:
             self.song_lyrics: SongLyrics = SongLyrics(
                 aai.Transcriber().transcribe(song_url))
         else:
-
             self.song_lyrics = SongLyrics()
         self.timer: Stopwatch = Stopwatch()
         self.ended: bool = False
