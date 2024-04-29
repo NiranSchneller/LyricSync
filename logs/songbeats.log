@@ -1,0 +1,37 @@
+INFO:__main__:Song construction
+INFO:elements.song_lyrics:None passed, beware! should only be passed during json parsing
+INFO:elements.song_lyrics:None passed, beware! should only be passed during json parsing
+INFO:__main__:Song constructed at time: 0.008001565933227539
+INFO:__main__:Song construction
+INFO:elements.song_lyrics:None passed, beware! should only be passed during json parsing
+INFO:elements.song_lyrics:None passed, beware! should only be passed during json parsing
+INFO:__main__:Song constructed at time: 0.004000425338745117
+INFO:__main__:Song construction
+INFO:elements.song_lyrics:None passed, beware! should only be passed during json parsing
+INFO:elements.song_lyrics:None passed, beware! should only be passed during json parsing
+INFO:__main__:Song constructed at time: 0.0010259151458740234
+INFO:__main__:Song construction
+INFO:elements.song_lyrics:None passed, beware! should only be passed during json parsing
+INFO:elements.song_lyrics:None passed, beware! should only be passed during json parsing
+INFO:__main__:Song constructed at time: 0.0010237693786621094
+INFO:__main__:Song construction
+INFO:__main__:Song construction
+INFO:elements.song_lyrics:None passed, beware! should only be passed during json parsing
+INFO:elements.song_lyrics:None passed, beware! should only be passed during json parsing
+INFO:__main__:Song constructed at time: 0.006012678146362305
+INFO:__main__:Song construction
+INFO:elements.song_lyrics:None passed, beware! should only be passed during json parsing
+INFO:elements.song_lyrics:None passed, beware! should only be passed during json parsing
+INFO:__main__:Song constructed at time: 0.00299835205078125
+INFO:__main__:Song construction
+INFO:elements.song_lyrics:None passed, beware! should only be passed during json parsing
+INFO:elements.song_lyrics:None passed, beware! should only be passed during json parsing
+INFO:__main__:Song constructed at time: 0.002003908157348633
+INFO:__main__:Song construction
+INFO:elements.song_lyrics:None passed, beware! should only be passed during json parsing
+INFO:elements.song_lyrics:None passed, beware! should only be passed during json parsing
+INFO:__main__:Song constructed at time: 0.0019969940185546875
+INFO:__main__:Song construction
+INFO:elements.song_lyrics:None passed, beware! should only be passed during json parsing
+INFO:elements.song_lyrics:None passed, beware! should only be passed during json parsing
+INFO:__main__:Song constructed at time: 0.009999752044677734

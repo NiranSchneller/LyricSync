@@ -1,1 +1,1 @@
-SONG_TO_PLAY
+BASE_LOGS_FOLDER = r"logs"

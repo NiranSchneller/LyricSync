@@ -4,7 +4,7 @@ import os
 import json
 BASE_SONGS_FOLDER = r"samples\songs"
 BASE_JSON_FOLDER = r"samples\jsons"
-SONG_TO_FORMAT = r"Mood.mp3"
+SONG_TO_FORMAT = r"Godzilla.mp3"
 
 aai.settings.api_key = "625058c65a9c4255af2179587a57e19a"
 

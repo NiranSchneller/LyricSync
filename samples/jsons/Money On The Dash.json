@@ -1,0 +1,751 @@
+{
+    "song_url": "samples\\songs\\Money On The Dash.mp3",
+    "song_name": "Money On The Dash.mp3",
+    "song_lyrics": [
+        {
+            "lyric": "say",
+            "start_time": 0.4,
+            "end_time": 0.656
+        },
+        {
+            "lyric": "you",
+            "start_time": 0.662,
+            "end_time": 0.918
+        },
+        {
+            "lyric": "running",
+            "start_time": 0.966,
+            "end_time": 1.31
+        },
+        {
+            "lyric": "off",
+            "start_time": 1.342,
+            "end_time": 1.486
+        },
+        {
+            "lyric": "the",
+            "start_time": 1.51,
+            "end_time": 1.67
+        },
+        {
+            "lyric": "road",
+            "start_time": 1.702,
+            "end_time": 1.966
+        },
+        {
+            "lyric": "so",
+            "start_time": 2.03,
+            "end_time": 2.278
+        },
+        {
+            "lyric": "get",
+            "start_time": 2.326,
+            "end_time": 2.582
+        },
+        {
+            "lyric": "out",
+            "start_time": 2.638,
+            "end_time": 2.854
+        },
+        {
+            "lyric": "the",
+            "start_time": 2.894,
+            "end_time": 3.094
+        },
+        {
+            "lyric": "way",
+            "start_time": 3.134,
+            "end_time": 3.43
+        },
+        {
+            "lyric": "push",
+            "start_time": 3.502,
+            "end_time": 3.782
+        },
+        {
+            "lyric": "the",
+            "start_time": 3.838,
+            "end_time": 4.03
+        },
+        {
+            "lyric": "pedal",
+            "start_time": 4.062,
+            "end_time": 4.454
+        },
+        {
+            "lyric": "to",
+            "start_time": 4.494,
+            "end_time": 4.67
+        },
+        {
+            "lyric": "the",
+            "start_time": 4.702,
+            "end_time": 4.846
+        },
+        {
+            "lyric": "floor",
+            "start_time": 4.87,
+            "end_time": 5.222
+        },
+        {
+            "lyric": "blow",
+            "start_time": 5.278,
+            "end_time": 5.55
+        },
+        {
+            "lyric": "em",
+            "start_time": 5.582,
+            "end_time": 5.774
+        },
+        {
+            "lyric": "all",
+            "start_time": 5.814,
+            "end_time": 6.086
+        },
+        {
+            "lyric": "away",
+            "start_time": 6.15,
+            "end_time": 6.542
+        },
+        {
+            "lyric": "yeah",
+            "start_time": 6.638,
+            "end_time": 7.022
+        },
+        {
+            "lyric": "you",
+            "start_time": 7.078,
+            "end_time": 7.246
+        },
+        {
+            "lyric": "see",
+            "start_time": 7.27,
+            "end_time": 7.478
+        },
+        {
+            "lyric": "i'm",
+            "start_time": 7.526,
+            "end_time": 7.71
+        },
+        {
+            "lyric": "getting",
+            "start_time": 7.742,
+            "end_time": 8.006
+        },
+        {
+            "lyric": "close",
+            "start_time": 8.07,
+            "end_time": 8.414
+        },
+        {
+            "lyric": "i",
+            "start_time": 8.494,
+            "end_time": 8.71
+        },
+        {
+            "lyric": "accelerate",
+            "start_time": 8.742,
+            "end_time": 9.838
+        },
+        {
+            "lyric": "going",
+            "start_time": 9.926,
+            "end_time": 10.342
+        },
+        {
+            "lyric": "faster",
+            "start_time": 10.438,
+            "end_time": 10.926
+        },
+        {
+            "lyric": "the",
+            "start_time": 11.03,
+            "end_time": 11.27
+        },
+        {
+            "lyric": "fast",
+            "start_time": 11.302,
+            "end_time": 11.622
+        },
+        {
+            "lyric": "hit",
+            "start_time": 11.678,
+            "end_time": 11.87
+        },
+        {
+            "lyric": "the",
+            "start_time": 11.902,
+            "end_time": 12.046
+        },
+        {
+            "lyric": "gas",
+            "start_time": 12.07,
+            "end_time": 12.422
+        },
+        {
+            "lyric": "lose",
+            "start_time": 12.478,
+            "end_time": 12.694
+        },
+        {
+            "lyric": "control",
+            "start_time": 12.734,
+            "end_time": 13.15
+        },
+        {
+            "lyric": "i",
+            "start_time": 13.262,
+            "end_time": 13.486
+        },
+        {
+            "lyric": "won't",
+            "start_time": 13.51,
+            "end_time": 13.686
+        },
+        {
+            "lyric": "crash",
+            "start_time": 13.71,
+            "end_time": 14.046
+        },
+        {
+            "lyric": "running",
+            "start_time": 14.11,
+            "end_time": 14.534
+        },
+        {
+            "lyric": "high",
+            "start_time": 14.574,
+            "end_time": 14.99
+        },
+        {
+            "lyric": "i",
+            "start_time": 15.102,
+            "end_time": 15.542
+        },
+        {
+            "lyric": "put",
+            "start_time": 15.638,
+            "end_time": 15.894
+        },
+        {
+            "lyric": "your",
+            "start_time": 15.934,
+            "end_time": 16.134
+        },
+        {
+            "lyric": "money",
+            "start_time": 16.174,
+            "end_time": 16.446
+        },
+        {
+            "lyric": "on",
+            "start_time": 16.51,
+            "end_time": 16.686
+        },
+        {
+            "lyric": "the",
+            "start_time": 16.71,
+            "end_time": 16.894
+        },
+        {
+            "lyric": "dash",
+            "start_time": 16.934,
+            "end_time": 17.222
+        },
+        {
+            "lyric": "through",
+            "start_time": 17.278,
+            "end_time": 17.47
+        },
+        {
+            "lyric": "the",
+            "start_time": 17.502,
+            "end_time": 17.67
+        },
+        {
+            "lyric": "die",
+            "start_time": 17.702,
+            "end_time": 18.158
+        },
+        {
+            "lyric": "dies",
+            "start_time": 18.246,
+            "end_time": 18.758
+        },
+        {
+            "lyric": "lose",
+            "start_time": 18.846,
+            "end_time": 19.11
+        },
+        {
+            "lyric": "control",
+            "start_time": 19.142,
+            "end_time": 19.55
+        },
+        {
+            "lyric": "i",
+            "start_time": 19.662,
+            "end_time": 19.886
+        },
+        {
+            "lyric": "won't",
+            "start_time": 19.91,
+            "end_time": 20.11
+        },
+        {
+            "lyric": "crash",
+            "start_time": 20.142,
+            "end_time": 20.446
+        },
+        {
+            "lyric": "running",
+            "start_time": 20.51,
+            "end_time": 21.274
+        },
+        {
+            "lyric": "say",
+            "start_time": 24.134,
+            "end_time": 24.566
+        },
+        {
+            "lyric": "say",
+            "start_time": 24.63,
+            "end_time": 25.234
+        },
+        {
+            "lyric": "you",
+            "start_time": 26.134,
+            "end_time": 26.494
+        },
+        {
+            "lyric": "running",
+            "start_time": 26.534,
+            "end_time": 27.274
+        },
+        {
+            "lyric": "yeah",
+            "start_time": 32.134,
+            "end_time": 32.598
+        },
+        {
+            "lyric": "you",
+            "start_time": 32.646,
+            "end_time": 32.83
+        },
+        {
+            "lyric": "see",
+            "start_time": 32.862,
+            "end_time": 33.078
+        },
+        {
+            "lyric": "i'm",
+            "start_time": 33.126,
+            "end_time": 33.326
+        },
+        {
+            "lyric": "getting",
+            "start_time": 33.35,
+            "end_time": 33.606
+        },
+        {
+            "lyric": "close",
+            "start_time": 33.67,
+            "end_time": 34.038
+        },
+        {
+            "lyric": "like",
+            "start_time": 34.126,
+            "end_time": 34.422
+        },
+        {
+            "lyric": "that",
+            "start_time": 34.478,
+            "end_time": 35.074
+        },
+        {
+            "lyric": "you",
+            "start_time": 51.734,
+            "end_time": 52.118
+        },
+        {
+            "lyric": "running",
+            "start_time": 52.166,
+            "end_time": 52.51
+        },
+        {
+            "lyric": "off",
+            "start_time": 52.542,
+            "end_time": 52.686
+        },
+        {
+            "lyric": "the",
+            "start_time": 52.71,
+            "end_time": 52.87
+        },
+        {
+            "lyric": "road",
+            "start_time": 52.902,
+            "end_time": 53.166
+        },
+        {
+            "lyric": "so",
+            "start_time": 53.23,
+            "end_time": 53.478
+        },
+        {
+            "lyric": "get",
+            "start_time": 53.526,
+            "end_time": 53.758
+        },
+        {
+            "lyric": "out",
+            "start_time": 53.806,
+            "end_time": 54.038
+        },
+        {
+            "lyric": "the",
+            "start_time": 54.086,
+            "end_time": 54.294
+        },
+        {
+            "lyric": "way",
+            "start_time": 54.334,
+            "end_time": 54.63
+        },
+        {
+            "lyric": "push",
+            "start_time": 54.702,
+            "end_time": 55.022
+        },
+        {
+            "lyric": "the",
+            "start_time": 55.078,
+            "end_time": 55.246
+        },
+        {
+            "lyric": "pedal",
+            "start_time": 55.27,
+            "end_time": 55.654
+        },
+        {
+            "lyric": "to",
+            "start_time": 55.694,
+            "end_time": 55.846
+        },
+        {
+            "lyric": "the",
+            "start_time": 55.87,
+            "end_time": 56.03
+        },
+        {
+            "lyric": "floor",
+            "start_time": 56.062,
+            "end_time": 56.422
+        },
+        {
+            "lyric": "blow",
+            "start_time": 56.478,
+            "end_time": 56.75
+        },
+        {
+            "lyric": "them",
+            "start_time": 56.782,
+            "end_time": 56.974
+        },
+        {
+            "lyric": "all",
+            "start_time": 57.014,
+            "end_time": 57.286
+        },
+        {
+            "lyric": "away",
+            "start_time": 57.35,
+            "end_time": 57.766
+        },
+        {
+            "lyric": "yeah",
+            "start_time": 57.87,
+            "end_time": 58.222
+        },
+        {
+            "lyric": "you",
+            "start_time": 58.278,
+            "end_time": 58.446
+        },
+        {
+            "lyric": "see",
+            "start_time": 58.47,
+            "end_time": 58.678
+        },
+        {
+            "lyric": "i'm",
+            "start_time": 58.726,
+            "end_time": 58.926
+        },
+        {
+            "lyric": "getting",
+            "start_time": 58.95,
+            "end_time": 59.206
+        },
+        {
+            "lyric": "close",
+            "start_time": 59.27,
+            "end_time": 59.614
+        },
+        {
+            "lyric": "i",
+            "start_time": 59.694,
+            "end_time": 59.91
+        },
+        {
+            "lyric": "accelerate",
+            "start_time": 59.942,
+            "end_time": 60.998
+        },
+        {
+            "lyric": "going",
+            "start_time": 61.086,
+            "end_time": 61.526
+        },
+        {
+            "lyric": "faster",
+            "start_time": 61.63,
+            "end_time": 62.142
+        },
+        {
+            "lyric": "the",
+            "start_time": 62.238,
+            "end_time": 62.47
+        },
+        {
+            "lyric": "fastest",
+            "start_time": 62.502,
+            "end_time": 63.022
+        },
+        {
+            "lyric": "the",
+            "start_time": 63.078,
+            "end_time": 63.27
+        },
+        {
+            "lyric": "gas",
+            "start_time": 63.302,
+            "end_time": 63.582
+        },
+        {
+            "lyric": "goes",
+            "start_time": 63.638,
+            "end_time": 63.845
+        },
+        {
+            "lyric": "lose",
+            "start_time": 63.882,
+            "end_time": 64.022
+        },
+        {
+            "lyric": "control",
+            "start_time": 64.038,
+            "end_time": 64.382
+        },
+        {
+            "lyric": "i",
+            "start_time": 64.478,
+            "end_time": 64.662
+        },
+        {
+            "lyric": "won't",
+            "start_time": 64.678,
+            "end_time": 64.886
+        },
+        {
+            "lyric": "crash",
+            "start_time": 64.91,
+            "end_time": 65.27
+        },
+        {
+            "lyric": "running",
+            "start_time": 65.342,
+            "end_time": 65.718
+        },
+        {
+            "lyric": "high",
+            "start_time": 65.766,
+            "end_time": 66.354
+        },
+        {
+            "lyric": "put",
+            "start_time": 66.774,
+            "end_time": 67.086
+        },
+        {
+            "lyric": "your",
+            "start_time": 67.11,
+            "end_time": 67.294
+        },
+        {
+            "lyric": "money",
+            "start_time": 67.334,
+            "end_time": 67.63
+        },
+        {
+            "lyric": "on",
+            "start_time": 67.702,
+            "end_time": 67.886
+        },
+        {
+            "lyric": "the",
+            "start_time": 67.91,
+            "end_time": 68.07
+        },
+        {
+            "lyric": "dash",
+            "start_time": 68.102,
+            "end_time": 68.382
+        },
+        {
+            "lyric": "go",
+            "start_time": 68.438,
+            "end_time": 68.654
+        },
+        {
+            "lyric": "to",
+            "start_time": 68.694,
+            "end_time": 68.78
+        },
+        {
+            "lyric": "the",
+            "start_time": 68.782,
+            "end_time": 68.89
+        },
+        {
+            "lyric": "die",
+            "start_time": 68.912,
+            "end_time": 69.358
+        },
+        {
+            "lyric": "die",
+            "start_time": 69.446,
+            "end_time": 69.942
+        },
+        {
+            "lyric": "lose",
+            "start_time": 70.038,
+            "end_time": 70.31
+        },
+        {
+            "lyric": "control",
+            "start_time": 70.342,
+            "end_time": 70.75
+        },
+        {
+            "lyric": "i",
+            "start_time": 70.862,
+            "end_time": 71.062
+        },
+        {
+            "lyric": "won't",
+            "start_time": 71.078,
+            "end_time": 71.286
+        },
+        {
+            "lyric": "crash",
+            "start_time": 71.31,
+            "end_time": 71.646
+        },
+        {
+            "lyric": "running",
+            "start_time": 71.71,
+            "end_time": 72.474
+        },
+        {
+            "lyric": "snow",
+            "start_time": 73.454,
+            "end_time": 74.274
+        },
+        {
+            "lyric": "to",
+            "start_time": 81.134,
+            "end_time": 81.446
+        },
+        {
+            "lyric": "the",
+            "start_time": 81.47,
+            "end_time": 81.63
+        },
+        {
+            "lyric": "floor",
+            "start_time": 81.662,
+            "end_time": 82.046
+        },
+        {
+            "lyric": "go",
+            "start_time": 82.11,
+            "end_time": 82.714
+        },
+        {
+            "lyric": "i",
+            "start_time": 96.334,
+            "end_time": 96.67
+        },
+        {
+            "lyric": "will",
+            "start_time": 96.702,
+            "end_time": 96.87
+        },
+        {
+            "lyric": "crash",
+            "start_time": 96.902,
+            "end_time": 97.594
+        },
+        {
+            "lyric": "i",
+            "start_time": 98.014,
+            "end_time": 98.302
+        },
+        {
+            "lyric": "will",
+            "start_time": 98.318,
+            "end_time": 98.47
+        },
+        {
+            "lyric": "crash",
+            "start_time": 98.502,
+            "end_time": 98.846
+        },
+        {
+            "lyric": "in",
+            "start_time": 98.91,
+            "end_time": 99.062
+        },
+        {
+            "lyric": "the",
+            "start_time": 99.078,
+            "end_time": 99.23
+        },
+        {
+            "lyric": "show",
+            "start_time": 99.262,
+            "end_time": 99.622
+        },
+        {
+            "lyric": "i",
+            "start_time": 99.718,
+            "end_time": 99.902
+        },
+        {
+            "lyric": "will",
+            "start_time": 99.918,
+            "end_time": 100.07
+        },
+        {
+            "lyric": "crash",
+            "start_time": 100.102,
+            "end_time": 100.462
+        },
+        {
+            "lyric": "run",
+            "start_time": 100.518,
+            "end_time": 100.614
+        }
+    ]
+}

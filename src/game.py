@@ -15,7 +15,7 @@ import pyqt6_tools
 FAILED_THRESHOLD = 3
 BASE_JSON_FOLDER = r"samples\jsons"
 BASE_LOGS_FOLDER = r"logs"
-SONG_TO_PLAY = r"Mood.json"
+SONG_TO_PLAY = r"Godzilla.json"
 # Initialization
 logger = logging.getLogger(__name__)
 logging.basicConfig(filename=path.join(
