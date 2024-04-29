@@ -11,21 +11,17 @@ import os
 import json
 import queue
 import pyqt6_tools
-# If FAILED_THRESHOLD seconds behind, the player failed entering the songs lyrics according to the beat
-FAILED_THRESHOLD = 3
+
 BASE_JSON_FOLDER = r"samples\jsons"
 BASE_LOGS_FOLDER = r"logs"
 SONG_TO_PLAY = r"Godzilla.json"
+
 # Initialization
 logger = logging.getLogger(__name__)
 logging.basicConfig(filename=path.join(
     os.getcwd(), BASE_LOGS_FOLDER, "songbeats.log"), level=logging.INFO)
 
 input_queue = queue.Queue()  # Thread safe
-"""
-    Each time player inputs and then lock the resource @player_input
-"""
-
 
 def handle_player():
     while True:
@@ -35,22 +31,13 @@ def handle_player():
 def has_player_entered_input() -> bool:
     return input_queue.get() is not None
 
-def play_song(song: Song, placeholder: str):
-    song.start_song()
-    print("Song started!")
-
-
-def display_song_lyrics(song: Song, display_event: Event):
+def display_song_lyrics(song: Song):
     previous_lyric = ""
-    display_event.wait()
     while True:
         current_lyric = song.get_current_lyric().lyric
         if previous_lyric != current_lyric:
             print(current_lyric)
         previous_lyric = current_lyric
-
-
-
 
 def create_song(json_or_file_path: str) -> Song:
     if ".json" in json_or_file_path:
@@ -63,32 +50,26 @@ def create_song(json_or_file_path: str) -> Song:
 
 
 def create_game_objects(song_json_or_file_path: str) -> (Tuple[Stopwatch, Thread, Song, GameUI,
-                                                                                     UserLyricTracker, Thread, Thread, Event]):
+                                                                UserLyricTracker, Thread]):
     main_stopwatch: Stopwatch = Stopwatch()
-    input_thread = Thread(target=handle_player)
-    logger.info("Song construction")
+    
     song: Song = create_song(song_json_or_file_path)
-    logger.info(f"Song constructed at time: {main_stopwatch.get_elapsed()}")
     gameUI = GameUI()
     user_lyric_tracker = UserLyricTracker(song.song_lyrics.lyrics)
-    song_thread = Thread(target=play_song, args=(song, ""))
 
-    display_event = Event()
-    words_display_thread = Thread(
-        target=display_song_lyrics, args=(song, display_event))
-    return main_stopwatch, input_thread, song, gameUI, user_lyric_tracker, song_thread, words_display_thread, display_event
+    input_thread = Thread(target=handle_player)
+    words_display_thread = Thread(target=display_song_lyrics, args=[song])
+    
+    return main_stopwatch, input_thread, song, gameUI, user_lyric_tracker, words_display_thread
 
 
 def main():
-    main_stopwatch, input_thread, song, gameUI, user_lyric_tracker, song_thread, words_display_thread, display_event = (
+    main_stopwatch, input_thread, song, gameUI, user_lyric_tracker, words_display_thread = (
         create_game_objects(path.join(BASE_JSON_FOLDER, SONG_TO_PLAY)))
-    global player_input
 
-    song.start_song()    
+    song.start_song()
     words_display_thread.start()
     input_thread.start()
-
-    display_event.set()
 
 
 if __name__ == "__main__":

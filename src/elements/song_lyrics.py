@@ -14,7 +14,8 @@ class SongLyrics:
             self.get_lyrics_from_transcript(lyrics)
             self.lyrics.sort(key=lambda info: info.start_time)
         else:
-            logger.info("None passed, beware! should only be passed during json parsing")
+            logger.info(
+                "None passed, beware! should only be passed during json parsing")
 
     """
         Generates a lyrics List according to the self.lyrics format (each word with start and end time).
@@ -36,10 +37,16 @@ class SongLyrics:
             if not current_lyric in current_occurrence_words.keys():
                 current_occurrence_words.update({current_lyric: 0})
 
-            current_timestamp_index = current_occurrence_words[current_lyric]
             for timestamp in match.timestamps:
-                self.lyrics.append(LyricInformation(current_lyric, stopwatch.Stopwatch.milliseconds_to_seconds(timestamp[0]),
-                                                    stopwatch.Stopwatch.milliseconds_to_seconds(timestamp[1])))
+                self.lyrics.append(
+                    LyricInformation(
+                        current_lyric,
+                        stopwatch.Stopwatch.milliseconds_to_seconds(
+                            timestamp[0]),
+                        stopwatch.Stopwatch.milliseconds_to_seconds(
+                            timestamp[1])
+                    )
+                )
 
             next_occurence = current_occurrence_words.pop(current_lyric) + 1
             current_occurrence_words.update({current_lyric: next_occurence})
@@ -56,13 +63,13 @@ class SongLyrics:
             start_time_seconds = lyric_information.start_time
             if timestamp > start_time_seconds:
                 return lyric_information
-            
+
         logger.info(f"Not a single word that fits, timestamp: {timestamp}")
         return DEFAULT_LYRIC_INFORMATION
-    
+
     def get_last_lyric(self) -> LyricInformation:
         return self.lyrics[-1]
-    
+
     @property
     def json_format(self) -> List[Dict[str, float | str]]:
         return [lyric_info.json_format for lyric_info in self.lyrics]
