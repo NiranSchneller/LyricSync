@@ -63,9 +63,20 @@ def create_game_objects(song_json_or_file_path: str) -> (Tuple[Stopwatch, Thread
     return main_stopwatch, input_thread, song, gameUI, user_lyric_tracker, words_display_thread
 
 
+def get_chosen_song() -> str:
+    options = [file for file in os.listdir(BASE_JSON_FOLDER)]
+    options = {i + 1 : file for i, file in enumerate(options)}
+
+    for number,file in options.items():
+        print(f"{number} - {file}")
+
+    chosen: int = int(input("Select the corresponding number to the song you'd like to parse: "))
+
+    return options[chosen]
+
 def main():
     main_stopwatch, input_thread, song, gameUI, user_lyric_tracker, words_display_thread = (
-        create_game_objects(path.join(BASE_JSON_FOLDER, SONG_TO_PLAY)))
+        create_game_objects(path.join(BASE_JSON_FOLDER, get_chosen_song())))
 
     song.start_song()
     words_display_thread.start()
