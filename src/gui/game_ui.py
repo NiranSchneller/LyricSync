@@ -5,7 +5,6 @@ class GameUI:
     def __init__(self) -> None:
         pass
 
-
     def incorrect_lyric_entered(self) -> None:
         pass
 

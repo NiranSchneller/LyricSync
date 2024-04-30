@@ -10,7 +10,7 @@ import pygame
 """
     This class represents a song. Once a song is started, the get_current_lyric function is used
     to get the current lyric according to a timer initialized when the song was started.
-
+    
     The song indicates whether it is finished or not according to the corresponding function.
 
     Not calling start_song before song_ended can lead to undesirable results.
